@@ -8,7 +8,8 @@
 #include "kb_test.h"
 
 #define BLOB_OVERHEAD 	48
-#define KEY_MAX_LENGTH 	(512 - BLOB_OVERHEAD)
+//#define KEY_MAX_LENGTH 	(512 - BLOB_OVERHEAD)
+#define KEY_MAX_LENGTH  (64*1024 - BLOB_OVERHEAD)
 
 #define KEY_COLOR_RED	0x0
 #define KEY_COLOR_BLACK	0x1
