@@ -1,0 +1,7 @@
+config BR2_PACKAGE_KB_TEST
+        bool "kb_test"
+        help
+          Test utility for IMX CAAM key blob
+
+	  https://source.codeaurora.org/external/imxsupport/imx_sec_apps/tree/demo-caam-blobs/userspace
+
